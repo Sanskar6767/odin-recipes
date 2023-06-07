@@ -5,26 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul style="list-style: none;">
-        <li>
-            <a href="./recipes/lasagna.html">
-                <figure> 
-                    <img src="./img/lasagna.jpeg" alt="Lasagna">
-                    <figcaption>Lasagna</figcaption>
-                </figure>
-            </a>
-        </li>
-        <li style="float: right;">
-            <a href="./recipes/grill-asparagus.html">
-                <figure> 
-                    <img src="./img/grillasparagus.jpeg" alt="Lasagna">
-                    <figcaption>grill-asparagus</figcaption>
-                </figure>
-            </a>
-        </li>
-    </ul>
+    <header>
+        <nav class="nav-menu">
+            <ul class="nav-ul">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Recipies">Recipies</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="odin-h">
+        <h1>Odin Recipes</h1>
+        <p class="odin-h-p">Odin recipies Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam sit eveniet, molestiae aut alias cumque odio ullam architecto beatae quod quos obcaecati autem hic in. Magni facere doloremque autem?</p>
+        <button class="subscribe"> Subscribe</button>
+    </div>
+    <div>
+        <div class="div-special">
+            <h2>Today's Special</h2>
+        </div>
+        <div class="recipe-card-section ">
+            <div class="recipe-card lasagna-back">
+                <img src="./img/lasagna.jpeg" alt="Lasagna">
+                <div class="recipe-card-p">
+                    <h3>Lasagna</h3>
+                    <p>This is the famous <strong>Italian</strong> dish which would melt in your mouth and will give you an unimaginable dilicious taste.</p>
+                </div>
+            </div>
+            <div class="recipe-card asparagus-back">
+                <img src="./img/grillasparagus.jpeg" alt="Lasagna">
+                <div class="recipe-card-p ">
+                    <h3>Grilled Asparagus</h3>
+                    <p>Grilled Asparagus is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem pariatur architecto harum officia, nulla ad? Eum, labore officiis! Vero corrupti quidem fuga deserunt totam cum voluptate illo? Exercitationem, veritatis! Voluptatem!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
